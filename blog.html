@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweeter Klonu</title>
+    <style>
+        /* CSS stilleri */
+        #post-kutusu {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        #gonder-buton {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+            #gonder-buton:hover {
+                background-color: #45a049;
+            }
+    </style>
+</head>
+<body>
+
+    <form id="post-form">
+        <textarea id="post-kutusu" name="post" rows="4" placeholder="Bir şeyler paylaşın..."></textarea>
+        <br>
+        <button type="submit" id="gonder-buton">Gönder</button>
+    </form>
+
+</body>
+</html>
